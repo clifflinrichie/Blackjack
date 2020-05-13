@@ -69,6 +69,7 @@ public class Player {
 
     public void discardHand() {
         hand.clear();
+        this.blackjack = false;
     }
 
 }
